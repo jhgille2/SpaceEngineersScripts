@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatic drill rig", "Automatic drill rig\Automatic drill rig.csproj", "{EB812D1C-DB8D-4503-B9BE-28752FF32D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB812D1C-DB8D-4503-B9BE-28752FF32D5A}.Debug|x64.ActiveCfg = Debug|x64
+		{EB812D1C-DB8D-4503-B9BE-28752FF32D5A}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D4B9400-ADCA-4F6F-9634-79A2B81065DE}
+	EndGlobalSection
+EndGlobal
