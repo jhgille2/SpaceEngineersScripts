@@ -325,6 +325,10 @@ namespace IngameScript
                     sb.Clear();
                     sb.Append("Drilling complete");
 
+                    displayLCD.WritePublicText(sb.ToString());
+                    displayLCD.ShowPrivateTextOnScreen();
+                    displayLCD.ShowPublicTextOnScreen();
+
                     List<IMyProgrammableBlock> miningBlock = new List<IMyProgrammableBlock>();
                     GridTerminalSystem.GetBlocksOfType(miningBlock);
                     miningBlock[1].Enabled = false;
